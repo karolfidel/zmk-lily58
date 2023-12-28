@@ -70,6 +70,7 @@
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
+};
 &oled {
         compatible = "solomon,ssd1306fb";
         reg = <0x3c>;
@@ -81,4 +82,3 @@
         multiplex-ratio = <63>;
         prechargep = <0x22>;
     };
-};
