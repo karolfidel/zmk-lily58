@@ -72,7 +72,7 @@
     };
 };
 &oled {
-        compatible = "sinowealth,sh1107";
+        compatible = "sinowealth,sh1106";
         reg = <0x3c>;
         width = <128>;
         height = <64>;
