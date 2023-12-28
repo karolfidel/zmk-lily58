@@ -73,7 +73,6 @@
 };
 &oled {
         compatible = "sinowealth,sh1106";
-        reg = <0x3c>;
         width = <128>;
         height = <64>;
         segment-offset = <0>;
