@@ -72,7 +72,7 @@
     };
 };
 &oled {
-        compatible = "solomon,ssd1306fb";
+        compatible = "sinowealth,sh1107";
         reg = <0x3c>;
         width = <128>;
         height = <64>;
