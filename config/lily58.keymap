@@ -71,14 +71,3 @@
         };
     };
 };
-
-&oled {
-    compatible = "sinowealth,sh116";
-    reg = <0x3c>;
-    width = <128>;
-    height = <64>;
-    segment-offset = <0>;
-    page-offset = <0x62>;
-    multiplex-ratio = <0x7f>;
-    prechargep = <0x22>;
-};
