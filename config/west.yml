@@ -1,8 +1,7 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/petejohanson/zmk/tree/core/zephyr-3.5-update
-  projects:
+      url-base: https://github.com/petejohanson/zmkfirmware
     - name: zmk
       remote: zmkfirmware
       revision: main
